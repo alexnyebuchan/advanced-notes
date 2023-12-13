@@ -1,7 +1,11 @@
+import NoteForm from "./NoteForm"
 
 
 export const NewNote = () => {
   return (
-    <div>NewNote</div>
+    <>
+        <h1 className="mb-4">New note</h1>
+        <NoteForm />
+    </>
   )
 }
